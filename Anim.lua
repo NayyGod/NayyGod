@@ -25,10 +25,3 @@ end end)
       Anim.AnimationId = "rbxassetid://3338010159"
 
       local bruh = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
-
-bruh:Play()
-bruh:AdjustSpeed(1)
-wait(1)
-bruh:AdjustSpeed(0)
-
-      wait(2000)
